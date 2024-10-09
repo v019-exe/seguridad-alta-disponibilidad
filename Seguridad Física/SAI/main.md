@@ -7,6 +7,7 @@
 ## ¿Cómo funcionan?
 
 ## Cálculos de SAI
+**Este es un ejemplo de ejercicio sobre calculos de SAI**
 
 Este cálculo es acorde a la situación que me proponen:
 
@@ -48,3 +49,70 @@ La fórmula $Q$ es literalmente el teorema de Pitágoras.
 
 $$P = FP \cdot S = 4833.71 \cdot 0.866 = 4186 \, W$$
 
+### AUTONOMÍAS
+
+**Este es un ejemplo de ejercicio sobre el cálculo de autonomías**
+
+CÁLCULOS AUTONOMÍA:
+
+**SAI OFFLINE:**
+
+$$
+Autonomía = \left(\frac{N \cdot V \cdot Ah - Ef}{S}\right) \cdot 60
+$$
+
+$$
+S = \frac{W}{FP} = \frac{4186}{0.866} = 4833.71 \, VA
+$$
+
+$$
+FP = \cos(\phi) = \cos(30) = 0.866
+$$
+
+$$
+T = \left(\frac{1.12 - 0.8}{4833.71}\right) \cdot 60 = \left(\frac{0.72}{4833.71}\right) \cdot 60 = 0.01 \cdot 60 = 0.83 \, mins
+$$
+
+---
+
+**SAI LINE-INTERACTIVE:**
+
+$$
+Autonomía = \left(\frac{N \cdot V \cdot Ah - Ef}{S}\right) \cdot 60
+$$
+
+$$
+S = \frac{W}{FP} = \frac{4186}{0.866} = 4833.71 \, VA
+$$
+
+$$
+FP = \cos(\phi) = \cos(30°) = 0.866
+$$
+
+$$
+Ef = 0.98
+$$
+
+$$
+T = \left(\frac{1 - 0.12 - 0.98}{4833.71}\right) \cdot 60 = \left(\frac{0}{4833.71}\right) \cdot 60 = 0.02 \cdot 60 = 1.31 \, mins
+$$
+
+---
+
+**SAI ONLINE:**
+
+$$
+Autonomía = \left(\frac{N \cdot V \cdot Ah - Ef}{S}\right) \cdot 60
+$$
+
+$$
+S = \frac{W}{FP} = \frac{4186}{0.866} = 4833.71 \, VA
+$$
+
+$$
+FP = \cos(\phi) = \cos(30°) = 0.866
+$$
+
+$$
+T = \left(\frac{1.12 - 240 - 0.98}{2187.71}\right) \cdot 60
+$$

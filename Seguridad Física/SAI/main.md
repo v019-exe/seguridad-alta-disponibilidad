@@ -1,8 +1,46 @@
 # Introducción a los SAI
 
 ## ¿Qué es un SAI?
+El **Sistema de Alimentación Ininterrumpida (SAI)** es un dispositivo que proporciona energía eléctrica de respaldo a equipos y sistemas críticos en caso de un corte de energía o fluctuaciones en la red eléctrica. Su función principal es asegurar que los dispositivos conectados continúen funcionando sin interrupciones, protegiéndolos de apagones, picos de voltaje, caídas de tensión y otros problemas de calidad de la energía.
+
+### Características Principales
+
+- **Baterías de Respaldo**: Los SAI están equipados con baterías que se activan automáticamente cuando se detecta una pérdida de energía.
+- **Regulación de Voltaje**: Muchos SAI también cuentan con sistemas de regulación que estabilizan el voltaje de salida, protegiendo así los equipos conectados.
+- **Tiempo de Transferencia**: La mayoría de los SAI ofrecen un tiempo de transferencia rápido (en milisegundos) para minimizar cualquier interrupción en la energía.
+- **Protección contra Sobrecargas**: Los SAI incluyen protecciones contra sobrecargas y cortocircuitos, lo que ayuda a evitar daños a los dispositivos conectados.
 
 ## ¿Qué tipos existen?
+A continuación se muestran los diferentes tipos de SAI desde el más simple al mas avanzado:
+### 1. SAI Offline (Standby)
+- **Descripción**: Este es el tipo más básico de SAI. Funciona como un regulador de voltaje y proporciona energía de respaldo mediante baterías solo cuando hay un corte de energía.
+- **Funcionamiento**: En condiciones normales, la energía eléctrica pasa directamente al equipo conectado. Cuando hay una interrupción, el SAI cambia rápidamente a la batería para mantener la energía.
+- **Ventajas**: Costo relativamente bajo y fácil de instalar.
+- **Desventajas**: Tiempo de transferencia entre la red y la batería puede afectar la continuidad de la operación.
+
+### 2. SAI Line-Interactive
+- **Descripción**: Este tipo de SAI ofrece características de regulación de voltaje adicional y es más sofisticado que el SAI offline.
+- **Funcionamiento**: Utiliza un transformador para ajustar el voltaje y mejorar la calidad de la energía. Proporciona energía de respaldo durante un corte y puede regular el voltaje en condiciones de fluctuación.
+- **Ventajas**: Proporciona una mejor protección contra sobrevoltajes y caídas de tensión.
+- **Desventajas**: Generalmente más costoso que un SAI offline.
+
+### 3. SAI Online (Doble Conversión)
+- **Descripción**: Este es el tipo más avanzado de SAI. Convierte la energía de la red en corriente continua (DC) y luego la convierte nuevamente a corriente alterna (AC) para la salida.
+- **Funcionamiento**: Proporciona una protección continua al equipo, ya que siempre está funcionando desde la batería, incluso cuando hay energía de la red disponible. Esto asegura una calidad de energía constante.
+- **Ventajas**: Proporciona la mejor calidad de energía y protección contra todas las anomalías de la red eléctrica.
+- **Desventajas**: Costo más alto y mayor consumo de energía en comparación con los otros tipos de SAI.
+
+### 4. SAI Híbrido
+- **Descripción**: Combina características de SAI offline y online. Puede cambiar entre el modo de funcionamiento de batería y el modo de línea.
+- **Funcionamiento**: Dependiendo de la carga y las condiciones de la red, puede alternar entre los modos para optimizar la eficiencia y el tiempo de funcionamiento de la batería.
+- **Ventajas**: Proporciona flexibilidad y eficiencia energética.
+- **Desventajas**: Puede ser más complicado de gestionar y configurar.
+
+### 5. SAI Modular
+- **Descripción**: Este tipo de SAI permite la adición de módulos adicionales para aumentar la capacidad y la redundancia.
+- **Funcionamiento**: Se pueden agregar o quitar módulos según las necesidades de energía, lo que permite una escalabilidad sencilla.
+- **Ventajas**: Proporciona flexibilidad en la expansión del sistema según las demandas de energía.
+- **Desventajas**: Generalmente más costoso y complejo que otros tipos.
 
 ## ¿Cómo funcionan?
 
